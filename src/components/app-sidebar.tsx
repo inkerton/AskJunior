@@ -13,7 +13,11 @@ import {
   Send,
   MoonStar,
   Settings2,
+  Sparkles,
+  CircleCheck,
   SquareTerminal,
+  Mail,
+  BookOpenIcon,
 } from "lucide-react"
 
 import { NavMain } from "@/components/nav-main"
@@ -65,19 +69,19 @@ const data = {
     {
       title: "Documentation",
       url: "#",
-      icon: Bot,
+      icon: BookOpenIcon,
     },
     {
       title: "Contact Support",
       url: "#",
-      icon: Settings2,
+      icon: Mail,
     },
   ],
   quickLinks: [
     {
       name: "Production Access",
       url: "#",
-      icon: Frame,
+      icon: CircleCheck,
     },
     {
       name: "Pricing Info",
@@ -87,7 +91,7 @@ const data = {
     {
       name: "Book a Demo",
       url: "#",
-      icon: Map,
+      icon: Sparkles,
     },
   ],
 }
@@ -105,7 +109,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                     alt="App Icon"
                     width={300}
                     height={20}
-                    className="mb-1"
+                    className="mb-1 mt-2"
                   />
               </a>
             </SidebarMenuButton>
