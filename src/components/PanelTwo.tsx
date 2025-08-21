@@ -18,7 +18,7 @@ export default function PanelTwo() {
           {/* Subtitle */}
           <p className="text-sm text-muted-foreground">
             <span className="text-primary font-medium cursor-pointer">Upload</span>{" "}
-            files and click <span className="font-semibold">"Extract All"</span> to
+            files and click <span className="font-semibold">&quot;Extract All&quot;</span> to
             view content
           </p>
 
